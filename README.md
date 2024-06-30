@@ -17,11 +17,13 @@ Installation
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/MJDaws0n/Live-Chatting-Site.git
-    cd live-chat```
+    cd live-chat
+    ```
 
 *   **Install dependencies:**
     ```bash
-    npm install```
+    npm install
+    ```
     
 *   **Set up SSL certificates:**
     
