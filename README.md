@@ -15,12 +15,9 @@ Installation
 ------------
 
 1.  **Clone the repository:**
-    
-    bash
-    
-    Copy code
-    
-    `git clone https://github.com/yourusername/live-chat.git cd live-chat`
+    `bash
+    git clone https://github.com/yourusername/live-chat.git
+    cd live-chat`
     
 
 *   **Install dependencies:**
