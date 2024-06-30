@@ -3,7 +3,7 @@ Live Chat Application
 
 This is an open-source live chat application that allows users to communicate in real-time. It features a responsive design, theme toggling, and WebSocket integration for seamless messaging. It is very basic and has no system to save the messages.
 
-An example is at (https://mjdawson.net/chat)[https://mjdawson.net/chat]
+An example is at [https://mjdawson.net/chat](https://mjdawson.net/chat)
 
 Features
 --------
