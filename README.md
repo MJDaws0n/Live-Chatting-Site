@@ -16,29 +16,24 @@ Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/live-chat.git
+    git clone https://github.com/MJDaws0n/Live-Chatting-Site.git
     cd live-chat```
-    
 
 *   **Install dependencies:**
-    
-    bash
-    
-    Copy code
-    
-    `npm install`
+    ```bash
+    npm install```
     
 *   **Set up SSL certificates:**
     
     *   Place your SSL certificate and key files in the `/home/container/certs/` directory.
     *   Update the paths in `server.js` if necessary.
+*   **Set up the domain:**
+   
+    *   Update the domain and port in `server.js`.
 *   **Start the server:**
     
-    bash
-    
-    Copy code
-    
-    `node server.js`
+    `bash
+    node server.js`
     
 
 Usage
