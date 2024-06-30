@@ -1,5 +1,84 @@
-<div><h1>Live Chat Application</h1><p>This is an open-source live chat application that allows users to communicate in real-time. It features a responsive design, theme toggling, and WebSocket integration for seamless messaging.</p><h2>Features</h2><ul><li><strong>Real-time Messaging:</strong> Communicate instantly with other users.</li><li><strong>Theme Toggling:</strong> Switch between light and dark themes.</li><li><strong>Responsive Design:</strong> Works on various screen sizes.</li><li><strong>WebSocket Communication:</strong> Ensures fast and reliable message transmission.</li></ul><h2>Installation</h2><ol><li><p><strong>Clone the repository:</strong></p><pre><div><span>bash</span><div><span><button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg>Copy code</button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> https://github.com/yourusername/live-chat.git
-<span class="hljs-built_in">cd</span> live-chat
-</code></div></div></pre></li><li><p><strong>Install dependencies:</strong></p><pre><div><div><span>bash</span><div><span><button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg>Copy code</button></span></div></div><div><code>npm install
-</code></div></div></pre></li><li><p><strong>Set up SSL certificates:</strong></p><ul><li>Place your SSL certificate and key files in the <code>/home/container/certs/</code> directory.</li><li>Update the paths in <code>server.js</code> if necessary.</li></ul></li><li><p><strong>Start the server:</strong></p><pre><div><div><span>bash</span><div><span><button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg>Copy code</button></span></div></div><div><code>node server.js
-</code></div></div></pre></li></ol><h2>Usage</h2><ol><li>Open your browser and navigate to <code>https://chatting.api.mjdawson.net</code>.</li><li>Use the input box to type and send messages.</li><li>Toggle themes using the "Toggle Theme" button.</li></ol><h2>Files Overview</h2><ul><li><strong>index.html:</strong> Main structure of the chat application.</li><li><strong>site.js:</strong> Handles theme toggling, message sending, and WebSocket interaction.</li><li><strong>connection.js:</strong> Defines the <code>Chat</code> class for managing WebSocket connections.</li><li><strong>site.css:</strong> Styles for the application, including light and dark themes.</li><li><strong>server.js:</strong> Node.js server setup for handling WebSocket connections.</li></ul><h2>Contributing</h2><ol><li>Fork the repository.</li><li>Create a new branch (<code>git checkout -b feature/your-feature</code>).</li><li>Commit your changes (<code>git commit -am 'Add your feature'</code>).</li><li>Push to the branch (<code>git push origin feature/your-feature</code>).</li><li>Open a pull request.</li></ol><h2>License</h2><p>This project is licensed under the MIT License. See the <a>LICENSE</a> file for details.</p><h2>Acknowledgments</h2><ul><li>Thanks to all contributors and the open-source community for their valuable input and resources.</li></ul><hr><p>Feel free to reach out with any questions or contributions!</p></div>
+Live Chat Application
+=====================
+
+This is an open-source live chat application that allows users to communicate in real-time. It features a responsive design, theme toggling, and WebSocket integration for seamless messaging.
+
+Features
+--------
+
+*   **Real-time Messaging:** Communicate instantly with other users.
+*   **Theme Toggling:** Switch between light and dark themes.
+*   **Responsive Design:** Works on various screen sizes.
+*   **WebSocket Communication:** Ensures fast and reliable message transmission.
+
+Installation
+------------
+
+1.  **Clone the repository:**
+    
+    bash
+    
+    Copy code
+    
+    `git clone https://github.com/yourusername/live-chat.git cd live-chat`
+    
+
+*   **Install dependencies:**
+    
+    bash
+    
+    Copy code
+    
+    `npm install`
+    
+*   **Set up SSL certificates:**
+    
+    *   Place your SSL certificate and key files in the `/home/container/certs/` directory.
+    *   Update the paths in `server.js` if necessary.
+*   **Start the server:**
+    
+    bash
+    
+    Copy code
+    
+    `node server.js`
+    
+
+Usage
+-----
+
+1.  Open your browser and navigate to `https://chatting.api.mjdawson.net`.
+2.  Use the input box to type and send messages.
+3.  Toggle themes using the "Toggle Theme" button.
+
+Files Overview
+--------------
+
+*   **index.html:** Main structure of the chat application.
+*   **site.js:** Handles theme toggling, message sending, and WebSocket interaction.
+*   **connection.js:** Defines the `Chat` class for managing WebSocket connections.
+*   **site.css:** Styles for the application, including light and dark themes.
+*   **server.js:** Node.js server setup for handling WebSocket connections.
+
+Contributing
+------------
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature`).
+3.  Commit your changes (`git commit -am 'Add your feature'`).
+4.  Push to the branch (`git push origin feature/your-feature`).
+5.  Open a pull request.
+
+License
+-------
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+---------------
+
+*   Thanks to all contributors and the open-source community for their valuable input and resources.
+
+* * *
+
+Feel free to reach out with any questions or contributions!
