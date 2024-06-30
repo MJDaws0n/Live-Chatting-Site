@@ -34,14 +34,15 @@ Installation
     *   Update the domain and port in `server.js`.
 *   **Start the server:**
     
-    `bash
-    node server.js`
+    ```bash
+    node server.js
+    ```
     
 
 Usage
 -----
 
-1.  Open your browser and navigate to `https://chatting.api.mjdawson.net`.
+1.  Open your browser and navigate to the website hosting the site (must have SSL - can be through GitHub Pages).
 2.  Use the input box to type and send messages.
 3.  Toggle themes using the "Toggle Theme" button.
 
@@ -54,25 +55,7 @@ Files Overview
 *   **site.css:** Styles for the application, including light and dark themes.
 *   **server.js:** Node.js server setup for handling WebSocket connections.
 
-Contributing
-------------
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature`).
-3.  Commit your changes (`git commit -am 'Add your feature'`).
-4.  Push to the branch (`git push origin feature/your-feature`).
-5.  Open a pull request.
-
 License
 -------
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
----------------
-
-*   Thanks to all contributors and the open-source community for their valuable input and resources.
-
-* * *
-
-Feel free to reach out with any questions or contributions!
